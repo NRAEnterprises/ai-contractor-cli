@@ -1,6 +1,6 @@
-# AI Contractor++
+# AI Contractor-CLI
 
-AI Contractor++ creates explicit completion contracts for AI-assisted software work. It turns a plan into an interface- and provider-aware artifact, preserves the full scope, and supplies a close-out gate for CLI sessions. It is a workflow aid—not a sandbox, execution environment, or substitute for human review.
+AI Contractor-CLI creates explicit completion contracts for AI-assisted software work. It turns a plan into an interface- and provider-aware artifact, preserves the full scope, and supplies a close-out gate for CLI sessions. It is a workflow aid—not a sandbox, execution environment, or substitute for human review.
 
 ## Install
 
