@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-contractor-cli"
+version = "0.1.0"
+description = "Completion-contract generator and workflow gate for AI-assisted software delivery"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "AI Contractor++ contributors"}]
+keywords = ["ai", "engineering", "contract", "completion", "cli"]
+classifiers = ["Development Status :: 3 - Alpha", "Environment :: Console", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3.10", "Programming Language :: Python :: 3.11", "Programming Language :: Python :: 3.12"]
+dependencies = []
+
+[project.scripts]
+ai-contractor = "ai_contractor.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ai_contractor = ["data/*", "data/providers/*"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[project.urls]
+Repository = "https://github.com/NRAEnterprises/ai-contractor-cli"
+Issues = "https://github.com/NRAEnterprises/ai-contractor-cli/issues"
+
+[project.optional-dependencies]
+dev = ["pytest", "build", "twine"]

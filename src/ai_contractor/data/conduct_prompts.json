@@ -1,0 +1,8 @@
+[
+  "Did I inspect the existing repository and environment before editing?",
+  "Did I address every explicit requirement and identify necessary implicit requirements?",
+  "Did I implement the integrated behavior without stubs, placeholders, or silent omissions?",
+  "Did I run relevant validation and report only checks actually performed?",
+  "Did I inspect the final changes for regressions, unsafe behavior, and documentation gaps?",
+  "Have I clearly stated all remaining risks, blockers, and incomplete work?"
+]

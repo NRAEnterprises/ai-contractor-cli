@@ -1,0 +1,3 @@
+# Defaults may be overridden via CLI options or AI_CONTRACTOR_HOME.
+default_provider = "generic"
+default_interface = "cli"
