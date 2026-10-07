@@ -1,0 +1,7 @@
+{
+  "completed_scope": ["add", "list", "complete", "JSON persistence"],
+  "checks_run": ["python -m pytest"],
+  "check_results": {"pytest": "passed"},
+  "unresolved_items": [],
+  "risks": []
+}

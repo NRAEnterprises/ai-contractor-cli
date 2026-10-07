@@ -1,0 +1,4 @@
+AI CONTRACTOR++ APPLY HERE
+Session: <session_id>
+Target: <provider> (<interface>)
+Read 01_CONTRACT.md in full before changing project files.
